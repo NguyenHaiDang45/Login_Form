@@ -3,7 +3,6 @@ package view;
 import Program.AboutUs.AboutView;
 import Program.AddressBook.AddressBookApp;
 import Program.BMICalculatorApp.BMICalculator;
-import Program.BMICalculatorApp.BMICalculatorApp;
 import Program.CalculatorApp.CalculatorApp;
 import Program.ChangeColor.view.ChangeColorView;
 import Program.CountdownTimer.CountdownTimer;
