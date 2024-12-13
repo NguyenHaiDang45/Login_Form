@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.geom.RoundRectangle2D;
 import java.net.URL;
 
 public class SignUpView extends JFrame {
@@ -18,9 +19,11 @@ public class SignUpView extends JFrame {
     private void init() {
         //JFrame
         this.setTitle("Menu Application");
-        this.setSize(350, 400);
+        this.setSize(350, 420);
+        this.setUndecorated(true);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setShape(new RoundRectangle2D.Double(0, 0, 350, 420, 45, 45));
 
         //SignUp text
         JPanel jp_text = new JPanel(new FlowLayout(FlowLayout.CENTER));
